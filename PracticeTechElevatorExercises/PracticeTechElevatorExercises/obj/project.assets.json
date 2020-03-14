@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\PracticeTechElevatorExercises\\PracticeTechElevatorExercises\\PracticeTechElevatorExercises.csproj",
+      "projectUniqueName": "C:\\Repos\\practice-exercises\\PracticeTechElevatorExercises\\PracticeTechElevatorExercises\\PracticeTechElevatorExercises.csproj",
       "projectName": "PracticeTechElevatorExercises",
-      "projectPath": "C:\\Repos\\PracticeTechElevatorExercises\\PracticeTechElevatorExercises\\PracticeTechElevatorExercises.csproj",
+      "projectPath": "C:\\Repos\\practice-exercises\\PracticeTechElevatorExercises\\PracticeTechElevatorExercises\\PracticeTechElevatorExercises.csproj",
       "packagesPath": "C:\\Users\\276900\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\PracticeTechElevatorExercises\\PracticeTechElevatorExercises\\obj\\",
+      "outputPath": "C:\\Repos\\practice-exercises\\PracticeTechElevatorExercises\\PracticeTechElevatorExercises\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\276900\\AppData\\Roaming\\NuGet\\NuGet.Config",
