@@ -5,8 +5,9 @@ class Program
 {
     static void Main()
     {
-        //Exercise1(); //calling Exercise1 method
-        //Exercise2(); //calling Exercise2 method
-        Exercise3();
+        //HelloWorld(); //calling Exercise1 method
+        //PrintFirstName(); //calling Exercise2 method
+        //GreetOnlyBobOrAlice();
+        CountToN();
     }
 }

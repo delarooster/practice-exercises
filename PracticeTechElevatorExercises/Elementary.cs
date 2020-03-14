@@ -4,19 +4,22 @@ using System.Text;
 
 public class Elementary
 {
-    public static void Exercise1()
+    //Exercise 1
+    public static void HelloWorld()
     {
         Console.WriteLine("Hello world!");
         Console.ReadKey();
     }
-    public static void Exercise2()
+    //Exercise 2
+    public static void PrintFirstName()
     {
         Console.WriteLine("Please write your first name: ");
         string name = Console.ReadLine().Trim();
         Console.WriteLine($"Hello {name}!");
         Console.ReadKey();
     }
-    public static void Exercise3()
+    //Exercise 3
+    public static void GreetOnlyBobOrAlice()
     {
         Console.WriteLine("Please write your first name: ");
         string name = Console.ReadLine().Trim();
@@ -28,6 +31,19 @@ public class Elementary
         else
         {
             Console.WriteLine("Sorry, you're not allowed to be greeted by name!");
+        }
+
+        Console.ReadKey();
+    }
+    //Exercise 4
+    public static void CountToN()
+    {
+        Console.WriteLine("Please provide a number: ");
+        int value = Convert.ToInt32(Console.ReadLine().Trim());
+
+        for(int i = 1; i <= value; i++)
+        {
+            Console.Write($"{i} ");
         }
 
         Console.ReadKey();
