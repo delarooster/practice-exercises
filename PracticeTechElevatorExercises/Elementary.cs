@@ -134,6 +134,24 @@ public class Elementary
             Console.WriteLine($"Numbers from 1 to {value.ToString()} added together equals: {sum.ToString()}");
         }
     }
+    //Exercise 7
+    public static void MultiplcationTablesUpTo12()
+    {
+        for (int i = 0; i <= 12; i++)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"{i}'s table: ");
+            Console.WriteLine($"- - - - - - - - -");
+
+            for (int j = 0; j <= 12; j++)
+            {
+                int result = i * j;
+                Console.WriteLine($"{i} * {j} = {result}");
+            }
+        }
+
+        Console.ReadKey();
+    }
 
 }
     

@@ -10,6 +10,7 @@ class Program
         //GreetOnlyBobOrAlice();
         //SumToN();
         //CountMultiplesOfThreeAndFive();
-        PrintSumOrComputeProduct();
+        //PrintSumOrComputeProduct();
+        MultiplcationTablesUpTo12();
     }
 }
