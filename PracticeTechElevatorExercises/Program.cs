@@ -5,7 +5,10 @@ class Program
 {
     static void Main()
     {
-        Exercise1(); //calling Exercise1 method
-        Exercise2("Irving"); //calling Exercise2 method
+        //HelloWorld(); //calling Exercise1 method
+        //PrintFirstName(); //calling Exercise2 method
+        //GreetOnlyBobOrAlice();
+        //CountToN();
+        CountMultiplesOfThreeAndFive();
     }
 }
