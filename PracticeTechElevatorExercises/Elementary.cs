@@ -40,12 +40,34 @@ public class Elementary
     {
         Console.WriteLine("Please provide a number: ");
         int value = Convert.ToInt32(Console.ReadLine().Trim());
-
+        int sum = 0;
         for(int i = 1; i <= value; i++)
         {
+            sum += i;
             Console.Write($"{i} ");
         }
+        Console.WriteLine();
+        Console.WriteLine($"Numbers from 1 to {value} added together equals: {sum}");
+        Console.ReadKey();
+    }
+    //Exercise 5
+    public static void CountMultiplesOfThreeAndFive()
+    {
+        Console.WriteLine("Please provide a number: ");
+        int value = Convert.ToInt32(Console.ReadLine().Trim());
+        int sum = 0;
 
+        for (int i = 1; i <= value; i++)
+        {
+            if (i % 3 == 0 || i % 5 == 0)
+            {
+                sum += i;
+                Console.Write($"{i} ");
+            }
+        }
+        Console.WriteLine();
+        Console.Write($"Numbers from 1 to {value} (that are divisible by 3 or 5) " +
+                      $"added together equals: {sum}");
         Console.ReadKey();
     }
 }

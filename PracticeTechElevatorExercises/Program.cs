@@ -8,6 +8,7 @@ class Program
         //HelloWorld(); //calling Exercise1 method
         //PrintFirstName(); //calling Exercise2 method
         //GreetOnlyBobOrAlice();
-        CountToN();
+        //CountToN();
+        CountMultiplesOfThreeAndFive();
     }
 }
