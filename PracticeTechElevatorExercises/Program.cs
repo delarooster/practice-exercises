@@ -7,5 +7,6 @@ class Program
     {
         Exercise1(); //calling Exercise1 method
         Exercise2("Irving"); //calling Exercise2 method
+        Exercise3("Joe");
     }
 }
